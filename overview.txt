@@ -1,0 +1,14 @@
+Data Collection: We’re using yfinance to pull historical stock data. In this example, the stock ticker for Apple (AAPL) is used.
+
+Data Visualization: A plot of the stock’s closing prices over time helps visualize the trend.
+
+Time Series Decomposition: This helps to break down the time series into its main components:
+
+Trend: The overall direction of the data.
+Seasonality: Repeating short-term cycles.
+Residual: What’s left after removing trend and seasonality.
+ARIMA Model: We fit an ARIMA model to forecast future stock prices. The model parameters (p, d, q) can be fine-tuned for better accuracy.
+
+Prediction: We forecast the stock prices for the test data and compare the predicted values with the actual values.
+
+Evaluation: We use the Root Mean Squared Error (RMSE) to assess the accuracy of the model.
